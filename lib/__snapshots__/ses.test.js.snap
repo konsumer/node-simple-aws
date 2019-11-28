@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ses should be able to send an email 1`] = `
+Object {
+  "Destination": Object {
+    "ToAddresses": Array [
+      "konsumer@jetboystudio.com",
+    ],
+  },
+  "Message": Object {
+    "Body": Object {
+      "Html": Object {
+        "Data": "<p>This is a test.</p>",
+      },
+      "Text": Object {
+        "Data": "This is a test.",
+      },
+    },
+    "Subject": Object {
+      "Data": "TESTING",
+    },
+  },
+  "Source": "konsumer@jetboystudio.com",
+}
+`;

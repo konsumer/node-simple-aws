@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sqs should be able to send a message 1`] = `
+Object {
+  "MessageBody": "testing",
+  "QueueUrl": "TEST",
+}
+`;
