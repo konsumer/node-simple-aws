@@ -10,3 +10,14 @@ Object {
   "TableName": "TEST",
 }
 `;
+
+exports[`dynamodb should be able to put an item, with promise 1`] = `
+Object {
+  "Item": Object {
+    "id": Object {
+      "S": "TEST",
+    },
+  },
+  "TableName": "TEST",
+}
+`;
