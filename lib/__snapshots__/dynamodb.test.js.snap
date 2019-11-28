@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dynamodb should be able to put an item 1`] = `
+Object {
+  "Item": Object {
+    "id": Object {
+      "S": "TEST",
+    },
+  },
+  "TableName": "TEST",
+}
+`;
