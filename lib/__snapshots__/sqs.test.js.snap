@@ -6,3 +6,10 @@ Object {
   "QueueUrl": "TEST",
 }
 `;
+
+exports[`sqs should be able to send a message, with a promise 1`] = `
+Object {
+  "MessageBody": "testing",
+  "QueueUrl": "TEST",
+}
+`;
